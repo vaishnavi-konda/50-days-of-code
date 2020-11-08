@@ -40,7 +40,7 @@ int main()
 //Function to reverse the array elements
 void reverseArray(int *array, int size)
 {
-    //indices of start and end elements of array
+    //indices of start and end elements of the array
     int start = 0, end = size - 1;
 
     //Swap the first and last elements until all the elements are swapped
