@@ -1,5 +1,6 @@
-#include <iostream>
+//Program to find the kth smallest element in an array
 
+#include <iostream>
 using namespace std;
 
 int kthSmallest(int *array, int size, int k);
