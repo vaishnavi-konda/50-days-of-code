@@ -1,6 +1,6 @@
 # 100-days-of-code
 ## 100-days-of-code is a challenge where I set myself the goal to code atleast for an hour everyday for the next 100 days
-## I've started learning Data Structures through C++ and Algorithms
+## Iam learning Data Structures through C++ and Algorithms
 
 ### Day-1 
         C++ program to reverse an array
