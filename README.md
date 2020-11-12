@@ -53,3 +53,19 @@
         Ouput : -20, -5, -6, 10, 25, 33, 1
 
         Note : Order of elements is not important here. 
+
+### [Day-6](https://github.com/vaishnavi-konda/100-days-of-code/tree/main/Day-6)
+        C++ program to fid the union and intersection of two sorted arrays.
+        Given two sorted arrays, the task is to find their union and intersection.
+
+        Example 1:
+        Input : arr1[] = {1, 3, 4, 5, 7}
+                arr2[] = {2, 3, 5, 6} 
+        Output : Union : {1, 2, 3, 4, 5, 6, 7} 
+                Intersection : {3, 5}
+                
+        Example 2:
+        Input : arr1[] = {2, 5, 6}
+                arr2[] = {4, 6, 8, 10} 
+        Output : Union : {2, 4, 5, 6, 8, 10} 
+                Intersection : {6}
