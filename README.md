@@ -1,6 +1,6 @@
 # 100-days-of-code
-## 100-days-of-code is a challenge where I set myself the goal to code atleast for an hour everyday for the next 100 days
-## Iam learning Data Structures through C++ and Algorithms
+100-days-of-code is a challenge where I set myself the goal to code atleast for an hour everyday for the next 100 days.
+Iam learning Data Structures through C++ and Algorithms in the next 100 days
 
 
 # ***ARRAYS***
@@ -69,3 +69,14 @@
                 arr2[] = {4, 6, 8, 10} 
         Output : Union : {2, 4, 5, 6, 8, 10} 
                 Intersection : {6}
+
+### [Day-7](https://github.com/vaishnavi-konda/100-days-of-code/tree/main/Day-7)
+        C++ program to cyclically rotate an array by one.
+
+        Example 1:
+        Input : array[] = {1, 2, 3, 4, 5}
+        Output : array[] = {5, 1, 2, 3, 4}
+
+        Example 2:
+        Input : array[] = {9, 8, 7, 6, 4, 2, 1, 3}
+        Output : array[] = {8, 7, 6, 4, 2, 1, 3, 9}
