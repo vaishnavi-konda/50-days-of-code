@@ -98,3 +98,16 @@ Iam learning Data Structures through C++ and Algorithms in the next 100 days
         Output: 11
         Explanation: The array can be modified as {6, 12, 9, 13, 17}.
         The difference between the largest and the smallest is 17-6 = 11.
+
+### [Day-9](https://github.com/vaishnavi-konda/100-days-of-code/tree/main/Day-9)
+        C++ program to find the duplicate element in an array.
+        Given an array of size n + 1, which contains n distinct elements and 1 element is repeated.
+        The task is to find out the repeated element.
+
+        Example 1:
+        Input : array[] = {2, 1, 3, 6, 1}
+        Output : 1
+
+        Example 2:
+        Input : array[] = {9, 5, 8, 3, 5, 1, 2}
+        Output : 5
