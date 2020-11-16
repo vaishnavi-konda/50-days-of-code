@@ -111,3 +111,35 @@ Iam learning Data Structures through C++ and Algorithms in the next 100 days
         Example 2:
         Input : array[] = {9, 5, 8, 3, 5, 1, 2}
         Output : 5
+
+### [Day-10](https://github.com/vaishnavi-konda/100-days-of-code/tree/main/Day-10)
+        C++ program to merge two sorted arrays into one sorted array.
+        Given two sorted arrays array1[], array2[] of size1, size2.
+        Each array is sorted in non-decreasing order.
+        Merge the two arrays into one sorted array in non-decreasing order without using any extra space.
+
+        Example 1:
+
+        Input:
+                size1 = 4, size2 = 5
+                array1[] = {1, 3, 5, 7}
+                array2[] = {0, 2, 6, 8, 9}
+
+        Output: 0 1 2 3 5 6 7 8 9
+
+        Explanation: Since you can't use any extra space, modify the given arrays to form 
+                array1[] = {0, 1, 2, 3}
+                array2[] = {5, 6, 7, 8, 9}
+
+        Example 2:
+
+        Input:
+                size1 = 2, size2 = 3
+                array1[] = {10, 12}
+                array2[] = {5, 18, 20}
+
+        Output: 5 10 12 18 20
+
+        Explanation: Since you can't use any extra space, modify the given arrays to form 
+                array1[] = {5, 10}
+                array2[] = {12, 18, 20}
