@@ -5,6 +5,7 @@ Iam learning Data Structures through C++ and Algorithms in the next 100 days
 
 # ***TOPIC - ARRAYS***
 ### [Day-1](https://github.com/vaishnavi-konda/100-days-of-code/tree/main/Day-1)
+
         C++ program to reverse an array
         
         Example 1:
@@ -16,6 +17,7 @@ Iam learning Data Structures through C++ and Algorithms in the next 100 days
         Output : array[] = {2, 1, 5, 4}
 
 ### [Day-2](https://github.com/vaishnavi-konda/100-days-of-code/tree/main/Day-2) 
+
         C++ program to find the minimum and maximum elements in an array.
         
         Method 1 - By sorting the array 
@@ -26,6 +28,7 @@ Iam learning Data Structures through C++ and Algorithms in the next 100 days
         Ouput : min = 2, max = 25
         
 ### [Day-3](https://github.com/vaishnavi-konda/100-days-of-code/tree/main/Day-3)
+
         C++ program to find the kth smallest element in an array.
 
         Example:
@@ -34,6 +37,7 @@ Iam learning Data Structures through C++ and Algorithms in the next 100 days
         Explanation : k is 2, so 2nd smallest element is 7
         
 ### [Day-4](https://github.com/vaishnavi-konda/100-days-of-code/tree/main/Day-4)
+
         C++ program to sort the array of 0s, 1s, 2s in ascending order without using any sorting algorithm
 
         Given an array containing 0s, 1s, and 2s; you need to sort the array in ascending order.
@@ -43,6 +47,7 @@ Iam learning Data Structures through C++ and Algorithms in the next 100 days
         Output : array[] = {0, 0, 0, 1, 1, 1, 2, 2}
 
 ### [Day-5](https://github.com/vaishnavi-konda/100-days-of-code/tree/main/Day-5)
+
         C++ program to move all the negative numbers to the beginning of the array.
 
         An array contains both positive and negative numbers in random order.
@@ -55,7 +60,9 @@ Iam learning Data Structures through C++ and Algorithms in the next 100 days
         Note : Order of elements is not important here. 
 
 ### [Day-6](https://github.com/vaishnavi-konda/100-days-of-code/tree/main/Day-6)
+
         C++ program to fid the union and intersection of two sorted arrays.
+
         Given two sorted arrays, the task is to find their union and intersection.
 
         Example 1:
@@ -71,6 +78,7 @@ Iam learning Data Structures through C++ and Algorithms in the next 100 days
                 Intersection : {6}
 
 ### [Day-7](https://github.com/vaishnavi-konda/100-days-of-code/tree/main/Day-7)
+
         C++ program to cyclically rotate an array by one.
 
         Example 1:
@@ -82,6 +90,9 @@ Iam learning Data Structures through C++ and Algorithms in the next 100 days
         Output : array[] = {8, 7, 6, 4, 2, 1, 3, 9}
 
 ### [Day-8](https://github.com/vaishnavi-konda/100-days-of-code/tree/main/Day-8)
+
+        C++ program to minimize the difference between longest and shortest heights of a tower.
+        
         Given an array arr[] denoting heights of N towers and a positive integer K.
         You have to modify the height of each tower either by increasing or decreasing them by K only once.
         After modifying, height should be a non-negative integer. 
@@ -100,7 +111,9 @@ Iam learning Data Structures through C++ and Algorithms in the next 100 days
         The difference between the largest and the smallest is 17-6 = 11.
 
 ### [Day-9](https://github.com/vaishnavi-konda/100-days-of-code/tree/main/Day-9)
+
         C++ program to find the duplicate element in an array.
+
         Given an array of size n + 1, which contains n distinct elements and 1 element is repeated.
         The task is to find out the repeated element.
 
@@ -113,7 +126,9 @@ Iam learning Data Structures through C++ and Algorithms in the next 100 days
         Output : 5
 
 ### [Day-10](https://github.com/vaishnavi-konda/100-days-of-code/tree/main/Day-10)
+
         C++ program to merge two sorted arrays into one sorted array.
+
         Given two sorted arrays array1[], array2[] of size1, size2.
         Each array is sorted in non-decreasing order.
         Merge the two arrays into one sorted array in non-decreasing order without using any extra space.
@@ -145,7 +160,9 @@ Iam learning Data Structures through C++ and Algorithms in the next 100 days
                 array2[] = {12, 18, 20}
 
 ### [Day-11](https://github.com/vaishnavi-konda/100-days-of-code/tree/main/Day-11)
+
         C++ program to merge the overlapping intervals.
+
         Given an array of intervals where intervals[i] = [starti, endi], merge all overlapping intervals,
         and return an array of the non-overlapping intervals that cover all the intervals in the input.
 
@@ -162,6 +179,7 @@ Iam learning Data Structures through C++ and Algorithms in the next 100 days
         Explanation: Intervals [1,4] and [4,5] are considered overlapping.
 
 ### [Day-12](https://github.com/vaishnavi-konda/100-days-of-code/tree/main/Day-12)
+
         Say you have an array for which the ith element is the price of a given stock on day i.
         If you were only permitted to complete at most one transaction (i.e., buy one and sell one share of the stock), design an algorithm to find the maximum profit.
         Note that you cannot sell a stock before you buy one.
@@ -179,6 +197,7 @@ Iam learning Data Structures through C++ and Algorithms in the next 100 days
         Explanation: In this case, no transaction is done, i.e. max profit = 0.
 
 ### [Day-13](https://github.com/vaishnavi-konda/100-days-of-code/tree/main/Day-13)
+
         -----------------KADANE'S ALGORITHM-----------------
         C++ program to find the contiguous sub-array with maximum sum.
 
@@ -191,9 +210,9 @@ Iam learning Data Structures through C++ and Algorithms in the next 100 days
         Output: 9
         Explanation: Max subarray sum is 9 of elements (1, 2, 3, -2, 5) which is a contiguous subarray.
 
-Example 2:
+        Example 2:
 
-    Input : N = 4
-            arr[] = {-1,-2,-3,-4}
-    Output: -1
-    Explanation: Max subarray sum is -1 of element (-1)
+        Input : N = 4
+                arr[] = {-1,-2,-3,-4}
+        Output: -1
+        Explanation: Max subarray sum is -1 of element (-1)
