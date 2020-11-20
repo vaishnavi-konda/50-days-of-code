@@ -9,12 +9,12 @@ Iam learning Data Structures through C++ and Algorithms in the next 100 days
         C++ program to reverse an array
         
         Example 1:
-        Input  : array[] = {1, 2, 3}
-        Output : array[] = {3, 2, 1}
+                Input  : array[] = {1, 2, 3}
+                Output : array[] = {3, 2, 1}
 
         Example 2:
-        Input :  array[] = {4, 5, 1, 2}
-        Output : array[] = {2, 1, 5, 4}
+                Input :  array[] = {4, 5, 1, 2}
+                Output : array[] = {2, 1, 5, 4}
 
 ### [Day-2](https://github.com/vaishnavi-konda/100-days-of-code/tree/main/Day-2) 
 
@@ -24,17 +24,17 @@ Iam learning Data Structures through C++ and Algorithms in the next 100 days
         Method 2 - By Linear search
 
         Example:
-        Input : array[] = {4, 5, 10, 25, 2, 3}
-        Ouput : min = 2, max = 25
+                Input : array[] = {4, 5, 10, 25, 2, 3}
+                Ouput : min = 2, max = 25
         
 ### [Day-3](https://github.com/vaishnavi-konda/100-days-of-code/tree/main/Day-3)
 
         C++ program to find the kth smallest element in an array.
 
         Example:
-        Input : array[] = {7, 10, 4, 3, 20, 15}, k = 2
-        Output : 7
-        Explanation : k is 2, so 2nd smallest element is 7
+                Input : array[] = {7, 10, 4, 3, 20, 15}, k = 2
+                Output : 7
+                Explanation : k is 2, so 2nd smallest element is 7
         
 ### [Day-4](https://github.com/vaishnavi-konda/100-days-of-code/tree/main/Day-4)
 
@@ -43,8 +43,8 @@ Iam learning Data Structures through C++ and Algorithms in the next 100 days
         Given an array containing 0s, 1s, and 2s; you need to sort the array in ascending order.
 
         Example:
-        Input : array[] = {2, 1, 1, 0, 0, 2, 0, 1}
-        Output : array[] = {0, 0, 0, 1, 1, 1, 2, 2}
+                Input : array[] = {2, 1, 1, 0, 0, 2, 0, 1}
+                Output : array[] = {0, 0, 0, 1, 1, 1, 2, 2}
 
 ### [Day-5](https://github.com/vaishnavi-konda/100-days-of-code/tree/main/Day-5)
 
@@ -54,8 +54,8 @@ Iam learning Data Structures through C++ and Algorithms in the next 100 days
         Rearrange the array elements so that all negative numbers appear before all positive numbers.
 
         Example:
-        Input : 1, -5, -6, 10, 25, 33, -20
-        Ouput : -20, -5, -6, 10, 25, 33, 1
+                Input : 1, -5, -6, 10, 25, 33, -20
+                Ouput : -20, -5, -6, 10, 25, 33, 1
 
         Note : Order of elements is not important here. 
 
@@ -66,28 +66,28 @@ Iam learning Data Structures through C++ and Algorithms in the next 100 days
         Given two sorted arrays, the task is to find their union and intersection.
 
         Example 1:
-        Input : arr1[] = {1, 3, 4, 5, 7}
-                arr2[] = {2, 3, 5, 6} 
-        Output : Union : {1, 2, 3, 4, 5, 6, 7} 
-                Intersection : {3, 5}
+                Input : arr1[] = {1, 3, 4, 5, 7}
+                        arr2[] = {2, 3, 5, 6} 
+                Output : Union : {1, 2, 3, 4, 5, 6, 7} 
+                        Intersection : {3, 5}
                 
         Example 2:
-        Input : arr1[] = {2, 5, 6}
-                arr2[] = {4, 6, 8, 10} 
-        Output : Union : {2, 4, 5, 6, 8, 10} 
-                Intersection : {6}
+                Input : arr1[] = {2, 5, 6}
+                        arr2[] = {4, 6, 8, 10} 
+                Output : Union : {2, 4, 5, 6, 8, 10} 
+                        Intersection : {6}
 
 ### [Day-7](https://github.com/vaishnavi-konda/100-days-of-code/tree/main/Day-7)
 
         C++ program to cyclically rotate an array by one.
 
         Example 1:
-        Input : array[] = {1, 2, 3, 4, 5}
-        Output : array[] = {5, 1, 2, 3, 4}
+                Input : array[] = {1, 2, 3, 4, 5}
+                Output : array[] = {5, 1, 2, 3, 4}
 
         Example 2:
-        Input : array[] = {9, 8, 7, 6, 4, 2, 1, 3}
-        Output : array[] = {8, 7, 6, 4, 2, 1, 3, 9}
+                Input : array[] = {9, 8, 7, 6, 4, 2, 1, 3}
+                Output : array[] = {8, 7, 6, 4, 2, 1, 3, 9}
 
 ### [Day-8](https://github.com/vaishnavi-konda/100-days-of-code/tree/main/Day-8)
 
@@ -99,16 +99,16 @@ Iam learning Data Structures through C++ and Algorithms in the next 100 days
         Find out what could be the possible minimum difference of the height of shortest and longest towers after you have modified each tower.
 
         Example 1:
-        Input: K = 2, N = 4, Arr[] = {1, 5, 8, 10}
-        Output: 5
-        Explanation: The array can be modified as {3, 3, 6, 8}.
-        The difference between the largest and the smallest is 8-3 = 5.
+                Input: K = 2, N = 4, Arr[] = {1, 5, 8, 10}
+                Output: 5
+                Explanation: The array can be modified as {3, 3, 6, 8}.
+                The difference between the largest and the smallest is 8-3 = 5.
 
         Example 2:
-        Input: K = 3, N = 5, Arr[] = {3, 9, 12, 16, 20}
-        Output: 11
-        Explanation: The array can be modified as {6, 12, 9, 13, 17}.
-        The difference between the largest and the smallest is 17-6 = 11.
+                Input: K = 3, N = 5, Arr[] = {3, 9, 12, 16, 20}
+                Output: 11
+                Explanation: The array can be modified as {6, 12, 9, 13, 17}.
+                The difference between the largest and the smallest is 17-6 = 11.
 
 ### [Day-9](https://github.com/vaishnavi-konda/100-days-of-code/tree/main/Day-9)
 
@@ -118,12 +118,12 @@ Iam learning Data Structures through C++ and Algorithms in the next 100 days
         The task is to find out the repeated element.
 
         Example 1:
-        Input : array[] = {2, 1, 3, 6, 1}
-        Output : 1
+                Input : array[] = {2, 1, 3, 6, 1}
+                Output : 1
 
         Example 2:
-        Input : array[] = {9, 5, 8, 3, 5, 1, 2}
-        Output : 5
+                Input : array[] = {9, 5, 8, 3, 5, 1, 2}
+                Output : 5
 
 ### [Day-10](https://github.com/vaishnavi-konda/100-days-of-code/tree/main/Day-10)
 
@@ -135,29 +135,27 @@ Iam learning Data Structures through C++ and Algorithms in the next 100 days
 
         Example 1:
 
-        Input:
-                size1 = 4, size2 = 5
-                array1[] = {1, 3, 5, 7}
-                array2[] = {0, 2, 6, 8, 9}
+                Input:   size1 = 4, size2 = 5
+                        array1[] = {1, 3, 5, 7}
+                        array2[] = {0, 2, 6, 8, 9}
 
-        Output: 0 1 2 3 5 6 7 8 9
+                Output: 0 1 2 3 5 6 7 8 9
 
-        Explanation: Since you can't use any extra space, modify the given arrays to form 
-                array1[] = {0, 1, 2, 3}
-                array2[] = {5, 6, 7, 8, 9}
+                Explanation: Since you can't use any extra space, modify the given arrays to form 
+                        array1[] = {0, 1, 2, 3}
+                        array2[] = {5, 6, 7, 8, 9}
 
         Example 2:
 
-        Input:
-                size1 = 2, size2 = 3
-                array1[] = {10, 12}
-                array2[] = {5, 18, 20}
+                Input:  size1 = 2, size2 = 3
+                        array1[] = {10, 12}
+                        array2[] = {5, 18, 20}
 
-        Output: 5 10 12 18 20
+                Output: 5 10 12 18 20
 
-        Explanation: Since you can't use any extra space, modify the given arrays to form 
-                array1[] = {5, 10}
-                array2[] = {12, 18, 20}
+                Explanation: Since you can't use any extra space, modify the given arrays to form 
+                        array1[] = {5, 10}
+                        array2[] = {12, 18, 20}
 
 ### [Day-11](https://github.com/vaishnavi-konda/100-days-of-code/tree/main/Day-11)
 
@@ -168,15 +166,15 @@ Iam learning Data Structures through C++ and Algorithms in the next 100 days
 
         Example 1:
 
-        Input: intervals = [[1,3],[2,6],[8,10],[15,18]]
-        Output: [[1,6],[8,10],[15,18]]
-        Explanation: Since intervals [1,3] and [2,6] overlaps, merge them into [1,6].
+                Input: intervals = [[1,3],[2,6],[8,10],[15,18]]
+                Output: [[1,6],[8,10],[15,18]]
+                Explanation: Since intervals [1,3] and [2,6] overlaps, merge them into [1,6].
 
         Example 2:
 
-        Input: intervals = [[1,4],[4,5]]
-        Output: [[1,5]]
-        Explanation: Intervals [1,4] and [4,5] are considered overlapping.
+                Input: intervals = [[1,4],[4,5]]
+                Output: [[1,5]]
+                Explanation: Intervals [1,4] and [4,5] are considered overlapping.
 
 ### [Day-12](https://github.com/vaishnavi-konda/100-days-of-code/tree/main/Day-12)
 
@@ -186,33 +184,57 @@ Iam learning Data Structures through C++ and Algorithms in the next 100 days
 
         Example 1:
 
-        Input: [7,1,5,3,6,4]
-        Output: 5
-        Explanation: Buy on day 2 (price = 1) and sell on day 5 (price = 6), profit = 6-1 = 5.
-                        Not 7-1 = 6, as selling price needs to be larger than buying price.
+                Input: [7,1,5,3,6,4]
+                Output: 5
+                Explanation: Buy on day 2 (price = 1) and sell on day 5 (price = 6), profit = 6-1 = 5.
+                                Not 7-1 = 6, as selling price needs to be larger than buying price.
         Example 2:
 
-        Input: [7,6,4,3,1]
-        Output: 0
-        Explanation: In this case, no transaction is done, i.e. max profit = 0.
+                Input: [7,6,4,3,1]
+                Output: 0
+                Explanation: In this case, no transaction is done, i.e. max profit = 0.
 
 ### [Day-13](https://github.com/vaishnavi-konda/100-days-of-code/tree/main/Day-13)
 
-        -----------------KADANE'S ALGORITHM-----------------
+        -----KADANE'S ALGORITHM-----
+
         C++ program to find the contiguous sub-array with maximum sum.
 
         Given an array arr of N integers. Find the contiguous sub-array with maximum sum.
 
         Example 1:
 
-        Input : N = 5
-                arr[] = {1,2,3,-2,5}
-        Output: 9
-        Explanation: Max subarray sum is 9 of elements (1, 2, 3, -2, 5) which is a contiguous subarray.
+                Input : N = 5
+                        arr[] = {1,2,3,-2,5}
+                Output: 9
+                Explanation: Max subarray sum is 9 of elements (1, 2, 3, -2, 5) which is a contiguous subarray.
 
         Example 2:
 
-        Input : N = 4
-                arr[] = {-1,-2,-3,-4}
-        Output: -1
-        Explanation: Max subarray sum is -1 of element (-1)
+                Input : N = 4
+                        arr[] = {-1,-2,-3,-4}
+                Output: -1
+                Explanation: Max subarray sum is -1 of element (-1)
+
+### [Day-14](https://github.com/vaishnavi-konda/100-days-of-code/tree/main/Day-14)
+
+        C++ program to find the common elements in 3 sorted arrays.
+
+        Given three arrays sorted in increasing order. Find the elements that are common in all three arrays.
+        Note: Try to take care of the duplicates without using any additional Data Structure.
+
+        Example 1:
+
+                Input:  size1 = 6; array1 = {1, 5, 10, 20, 40, 80}
+                        size2 = 5; array2 = {6, 7, 20, 80, 100}
+                        size3 = 8; array3 = {3, 4, 15, 20, 30, 70, 80, 120}
+                Output: 20 80
+                Explanation: 20 and 80 are the only common elements in array1, array2, array3.
+
+        Example 2:
+
+                Input:  size1 = 3; array1 = {3, 3, 3}
+                        size2 = 3; array2 = {3, 3, 3}
+                        size3 = 3; array3 = {3, 3, 3}
+                Output: 3
+                Explanation: 3 is the only common element in array1, array2, array3.
