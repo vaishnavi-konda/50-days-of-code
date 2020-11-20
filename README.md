@@ -4,7 +4,8 @@ Iam learning Data Structures through C++ and Algorithms in the next 100 days
 
 
 # ***TOPIC - ARRAYS***
-### [Day-1](https://github.com/vaishnavi-konda/100-days-of-code/tree/main/Day-1)
+### [Day-1](https://github.com/vaishnavi-konda/100-days-of-code/tree/main/Day-1) 
+### Reverse an array
 
         C++ program to reverse an array
         
@@ -17,6 +18,7 @@ Iam learning Data Structures through C++ and Algorithms in the next 100 days
                 Output : array[] = {2, 1, 5, 4}
 
 ### [Day-2](https://github.com/vaishnavi-konda/100-days-of-code/tree/main/Day-2) 
+### Minimum and maximum in an array
 
         C++ program to find the minimum and maximum elements in an array.
         
@@ -28,6 +30,7 @@ Iam learning Data Structures through C++ and Algorithms in the next 100 days
                 Ouput : min = 2, max = 25
         
 ### [Day-3](https://github.com/vaishnavi-konda/100-days-of-code/tree/main/Day-3)
+### kth smallest element in an array
 
         C++ program to find the kth smallest element in an array.
 
@@ -37,6 +40,7 @@ Iam learning Data Structures through C++ and Algorithms in the next 100 days
                 Explanation : k is 2, so 2nd smallest element is 7
         
 ### [Day-4](https://github.com/vaishnavi-konda/100-days-of-code/tree/main/Day-4)
+### Sort an array of 0s,1s, 2s
 
         C++ program to sort the array of 0s, 1s, 2s in ascending order without using any sorting algorithm
 
@@ -47,6 +51,7 @@ Iam learning Data Structures through C++ and Algorithms in the next 100 days
                 Output : array[] = {0, 0, 0, 1, 1, 1, 2, 2}
 
 ### [Day-5](https://github.com/vaishnavi-konda/100-days-of-code/tree/main/Day-5)
+### Move all negatives to one side of array
 
         C++ program to move all the negative numbers to the beginning of the array.
 
@@ -60,6 +65,7 @@ Iam learning Data Structures through C++ and Algorithms in the next 100 days
         Note : Order of elements is not important here. 
 
 ### [Day-6](https://github.com/vaishnavi-konda/100-days-of-code/tree/main/Day-6)
+### Union and intersection af arrays
 
         C++ program to fid the union and intersection of two sorted arrays.
 
@@ -78,6 +84,7 @@ Iam learning Data Structures through C++ and Algorithms in the next 100 days
                         Intersection : {6}
 
 ### [Day-7](https://github.com/vaishnavi-konda/100-days-of-code/tree/main/Day-7)
+### Rotate an array
 
         C++ program to cyclically rotate an array by one.
 
@@ -90,6 +97,7 @@ Iam learning Data Structures through C++ and Algorithms in the next 100 days
                 Output : array[] = {8, 7, 6, 4, 2, 1, 3, 9}
 
 ### [Day-8](https://github.com/vaishnavi-konda/100-days-of-code/tree/main/Day-8)
+### Minimize the difference between heights
 
         C++ program to minimize the difference between longest and shortest heights of a tower.
         
@@ -111,7 +119,7 @@ Iam learning Data Structures through C++ and Algorithms in the next 100 days
                 The difference between the largest and the smallest is 17-6 = 11.
 
 ### [Day-9](https://github.com/vaishnavi-konda/100-days-of-code/tree/main/Day-9)
-
+### Find duplicate in an array
         C++ program to find the duplicate element in an array.
 
         Given an array of size n + 1, which contains n distinct elements and 1 element is repeated.
@@ -126,6 +134,7 @@ Iam learning Data Structures through C++ and Algorithms in the next 100 days
                 Output : 5
 
 ### [Day-10](https://github.com/vaishnavi-konda/100-days-of-code/tree/main/Day-10)
+### Merge two sorted arrays
 
         C++ program to merge two sorted arrays into one sorted array.
 
@@ -158,6 +167,7 @@ Iam learning Data Structures through C++ and Algorithms in the next 100 days
                         array2[] = {12, 18, 20}
 
 ### [Day-11](https://github.com/vaishnavi-konda/100-days-of-code/tree/main/Day-11)
+### Merge overlapping intervals
 
         C++ program to merge the overlapping intervals.
 
@@ -177,6 +187,7 @@ Iam learning Data Structures through C++ and Algorithms in the next 100 days
                 Explanation: Intervals [1,4] and [4,5] are considered overlapping.
 
 ### [Day-12](https://github.com/vaishnavi-konda/100-days-of-code/tree/main/Day-12)
+### Buy and sell stock
 
         Say you have an array for which the ith element is the price of a given stock on day i.
         If you were only permitted to complete at most one transaction (i.e., buy one and sell one share of the stock), design an algorithm to find the maximum profit.
@@ -195,8 +206,7 @@ Iam learning Data Structures through C++ and Algorithms in the next 100 days
                 Explanation: In this case, no transaction is done, i.e. max profit = 0.
 
 ### [Day-13](https://github.com/vaishnavi-konda/100-days-of-code/tree/main/Day-13)
-
-        -----KADANE'S ALGORITHM-----
+### KADANE'S ALGORITHM
 
         C++ program to find the contiguous sub-array with maximum sum.
 
@@ -217,7 +227,7 @@ Iam learning Data Structures through C++ and Algorithms in the next 100 days
                 Explanation: Max subarray sum is -1 of element (-1)
 
 ### [Day-14](https://github.com/vaishnavi-konda/100-days-of-code/tree/main/Day-14)
-
+### Common elements in 3 arrays
         C++ program to find the common elements in 3 sorted arrays.
 
         Given three arrays sorted in increasing order. Find the elements that are common in all three arrays.
