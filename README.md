@@ -228,6 +228,7 @@ Iam learning Data Structures through C++ and Algorithms in the next 100 days
 
 ### [Day-14](https://github.com/vaishnavi-konda/100-days-of-code/tree/main/Day-14)
 ### Common elements in 3 arrays
+
         C++ program to find the common elements in 3 sorted arrays.
 
         Given three arrays sorted in increasing order. Find the elements that are common in all three arrays.
@@ -248,3 +249,26 @@ Iam learning Data Structures through C++ and Algorithms in the next 100 days
                         size3 = 3; array3 = {3, 3, 3}
                 Output: 3
                 Explanation: 3 is the only common element in array1, array2, array3.
+
+### [Day-15](https://github.com/vaishnavi-konda/100-days-of-code/tree/main/Day-15)
+### Finding the longest consecutive subsequence
+
+        C++ program to find the longest consecutive subsequence.
+
+        Given an array of positive integers.
+        Find the length of the longest sub-sequence such that elements in the subsequence are consecutive integers, the consecutive numbers can be in any order.
+
+        Example 1:
+
+                Input:  size = 7
+                        array[] = {2,6,1,9,4,5,3}
+                Output: 6
+                Explanation: The consecutive numbers here are 1, 2, 3, 4, 5, 6. 
+                These 6 numbers form the longest consecutive subsquence.
+
+        Example 2:
+
+                Input:  size = 7
+                        array[] = {1,9,3,10,4,20,2}
+                Output: 4
+                Explanation: 1, 2, 3, 4 is the longest consecutive subsequence.
