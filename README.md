@@ -339,3 +339,21 @@ Iam learning Data Structures through C++ and Algorithms in the next 100 days
 
         Approach : 
         We first sort the array arr[0..n-1], then find the subarray of size m with the minimum difference between the last and first elements.
+
+### [Day-18](https://github.com/vaishnavi-konda/100-days-of-code/tree/main/Day-18)
+### Minimum number of jumps required to reach the end of array
+
+        C++ program to find minimum number of jumps required to reach the end of array.
+
+        Given an array of integers where each element represents the number of steps that can be made forward from that element. 
+        Write a function to return the minimum number of jumps to reach the end of the array (starting from the first element).
+        If an element is 0, then cannot move through that element.
+
+        Example 1:
+                Input  : array[] = {1, 3, 5, 8, 9, 2, 6, 7, 6, 8, 9}
+                Output : 3 
+                Explanation: (1 -> 3 -> 9 -> 9)
+
+        Example 2:
+                Input   : array[] = {1, 4, 3, 2, 6, 7}
+                Output  : 2
