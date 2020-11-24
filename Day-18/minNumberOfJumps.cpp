@@ -59,5 +59,6 @@ int getMinJumps(int *array, int size)
     {
         jump++;
     }
+    
     return jump;
 }
