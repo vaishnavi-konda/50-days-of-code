@@ -360,6 +360,7 @@ Iam learning Data Structures through C++ and Algorithms in the next 100 days
 
 ### [Day-19](https://github.com/vaishnavi-konda/100-days-of-code/tree/main/Day-19)
 ### Check if an array is subset of another array
+
         C++ program to find whether an array is subset of another array.
 
         Given two arrays: arr1[0..m-1] of size m and arr2[0..n-1] of size n. 
@@ -387,3 +388,23 @@ Iam learning Data Structures through C++ and Algorithms in the next 100 days
                 Input : arr1[] = {10, 5, 2, 23, 19}
                         arr2[] = {19, 5, 3} 
                 Output: No
+
+### [Day-20](https://github.com/vaishnavi-konda/100-days-of-code/tree/main/Day-20)
+### Rearrange an array in alternating positive and negative items
+
+        C++ program to rearrange an array in alternating positive and negative items with O(1) extra space.
+
+        Given an array of positive and negative numbers, arrange them in an alternate fashion such that every positive number is followed by negative and vice-versa.
+        Number of positive and negative numbers need not be equal. 
+        If there are more positive numbers they appear at the end of the array. 
+        If there are more negative numbers, they too appear in the end of the array.
+
+        Example 1 :
+
+                Input:  arr[] = {1, 2, 3, -4, -1, 4}
+                Output: arr[] = {-4, 1, -1, 2, 3, 4}
+
+        Example 2 :
+
+                Input:  arr[] = {-5, -2, 5, 2, 4, 7, 1, 8, 0, -8}
+                output: arr[] = {-5, 5, -2, 2, -8, 4, 7, 1, 8, 0} 
