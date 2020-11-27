@@ -408,3 +408,22 @@ Iam learning Data Structures through C++ and Algorithms in the next 100 days
 
                 Input:  arr[] = {-5, -2, 5, 2, 4, 7, 1, 8, 0, -8}
                 output: arr[] = {-5, 5, -2, 2, -8, 4, 7, 1, 8, 0} 
+
+### [Day-21](https://github.com/vaishnavi-konda/100-days-of-code/tree/main/Day-21)
+### Median of an array
+
+        C++ program to calculate the median of an array.
+
+        Given an array arr[] of N integers, calculate the median.
+
+        Example 1:
+
+                Input: N = 5, arr[] = 90 100 78 89 67
+                Output: 89
+                Explanation: After sorting the array middle element is the median 
+
+        Example 2:
+
+                Input: N = 4, arr[] = 56 67 30 79
+                Output: 61
+                Explanation: In case of even number of elements average of two middle elements is the median
