@@ -427,3 +427,27 @@ Iam learning Data Structures through C++ and Algorithms in the next 100 days
                 Input: N = 4, arr[] = 56 67 30 79
                 Output: 61
                 Explanation: In case of even number of elements average of two middle elements is the median
+
+### [Day-22](https://github.com/vaishnavi-konda/100-days-of-code/tree/main/Day-22)
+### Median of 2 arrays of same size
+
+C++ program to calculate the median of two sorted arrays of same size.
+
+There are 2 sorted arrays A and B of size n each. 
+Write an algorithm to find the median of the array obtained after merging the above 2 arrays(i.e. array of length 2n.)
+
+Example 1: 
+
+    Input :
+        ar1[] = {1, 12, 15, 26, 38}
+        ar2[] = {2, 13, 17, 30, 45}
+    Output : 16
+    Explanation : Both arrays after merging  {1, 2, 12, 13, 15, 17, 26, 30, 38, 45}
+                  The median is (15+17)/2 = 16
+
+Example 2:
+
+    Input :
+        ar1[] = {1, 2, 3, 6}
+        ar2[] = {4, 6, 8, 10}
+    Output : 5
