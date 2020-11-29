@@ -451,3 +451,33 @@ Example 2:
         ar1[] = {1, 2, 3, 6}
         ar2[] = {4, 6, 8, 10}
     Output : 5
+
+### [Day-23](https://github.com/vaishnavi-konda/100-days-of-code/tree/main/Day-23)
+### Median of 2 arrays of different sizes
+
+        C++ program to calculate the median of two sorted arrays of different sizes.
+
+        Example 1:
+
+                Input: ar1[] = {-5, 3, 6, 12, 15}
+                        ar2[] = {-12, -10, -6, -3, 4, 10}
+                Output : The median is 3.
+                Explanation : The merged array is : ar3[] = {-12, -10, -6, -5 , -3, 3, 4, 6, 10, 12, 15},
+                                So the median of the merged array is 3.
+
+        Example 2:
+
+                Input: ar1[] = {2, 3, 5, 8}
+                        ar2[] = {10, 12, 14, 16, 18, 20}
+                Output : The median is 11.
+                Explanation : The merged array is : ar3[] = {2, 3, 5, 8, 10, 12, 14, 16, 18, 20}
+                        if the number of the elements are even, so there are two middle elements, take the average between the two : (10 + 12) / 2 = 11.      
+
+        Algorithm : 
+        1. Create an array "arr3[]" of length (size1 + size2), if size1 and size2 are the lengths of given input arrays, say "arr1[]" and "arr2[]".
+        2. Simultaneously traverse through array1[] and array2[].
+        Pick smaller of current elements in arr1[] and arr2[], copy this smaller element to next position in arr3[] and move ahead in arr3[] and the array whose element is picked.
+        3. If there are remaining elements in arr1[] or arr2[], copy them also in arr3[].
+        4. Find the middle index of arr3[], say "mid". mid = (len(arr3) - 1 / 2)
+        5. If there are odd number of elements in arr3[], then print the value of "arr3[mid]".
+        If there are even number of elements in arr3[], then median is the average of two middle elements, i.e, (arr3[mid] + arr3[mid + 1]) / 2.
