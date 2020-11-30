@@ -481,3 +481,25 @@ Example 2:
         4. Find the middle index of arr3[], say "mid". mid = (len(arr3) - 1 / 2)
         5. If there are odd number of elements in arr3[], then print the value of "arr3[mid]".
         If there are even number of elements in arr3[], then median is the average of two middle elements, i.e, (arr3[mid] + arr3[mid + 1]) / 2.
+
+### [Day-24](https://github.com/vaishnavi-konda/100-days-of-code/tree/main/Day-24)
+### Palindromic Array
+
+        C++ program to check if all the elements in an array are palindromes.
+
+        Given a Integer array A[] of n elements.
+        Print 1  if all the elements of the Array are palindrome otherwise print 0.
+
+        Example 1:
+                Input : arr[] = {111, 222, 333, 444, 555}
+                Output : 1
+
+        Example 2:
+                Input : arr[] = {121, 30, 434}
+                Output : 0
+
+        Algorithm :
+        1. Iterate through the given array. 
+        2. For each element, check if it is palindrome or not.
+        3. If all elements are palindrome, then print 1.
+        If any of the element is not palindrome, then print 0 and stop iteration.
