@@ -503,3 +503,43 @@ Example 2:
         2. For each element, check if it is palindrome or not.
         3. If all elements are palindrome, then print 1.
         If any of the element is not palindrome, then print 0 and stop iteration.
+
+### [Day-25](https://github.com/vaishnavi-konda/100-days-of-code/tree/main/Day-25)
+### Number of pairs in an array with given sum 
+
+        C++ program to find the number of pairs in an array with given sum.
+
+        Given an array of integers, and a number ‘sum’.
+        Find the number of pairs of integers in the array whose sum is equal to ‘sum’.
+
+        Example 1:
+                Input  :  arr[] = {1, 5, 7, -1}, sum = 6
+                Output :  2
+                Pairs with sum 6 are (1, 5) and (7, -1)
+
+        Example 2:
+                Input  :  arr[] = {1, 5, 7, -1, 5}, sum = 6
+                Output :  3
+                Pairs with sum 6 are (1, 5), (7, -1) & (1, 5)         
+
+        Example 3:
+                Input  :  arr[] = {1, 1, 1, 1}, sum = 2
+                Output :  6
+                There are 3! pairs with sum 2.
+
+        Example 4:
+                Input  :  arr[] = {10, 12, 10, 15, -1, 7, 6, 5, 4, 2, 1, 1, 1}, sum = 11
+                Output :  9
+
+        Algorithm :
+        A simple solution is be traverse each element and check if there’s another number in the array which can be added to it to give sum.
+        But the time complexity is O(n^2).
+
+        Another efficient approach :
+        1. Create a map to store frequency of each number in the array. (Single traversal is required)
+        2. In the next traversal, for every element check if it can be combined with any other element (other than itself!) to give the desired sum. 
+        Increment the counter accordingly.
+        3. After completion of second traversal, we’d have twice the required value stored in counter because every pair is counted two times. 
+        Hence divide twice_count by 2 and return.
+
+        Here time complexity is O(n).
