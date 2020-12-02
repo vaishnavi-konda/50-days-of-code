@@ -543,3 +543,31 @@ Example 2:
         Hence divide twice_count by 2 and return.
 
         Here time complexity is O(n).
+
+### [Day-26](https://github.com/vaishnavi-konda/100-days-of-code/tree/main/Day-26)
+### Minimum swaps to bring all elements less than 'k' together
+
+        C++ program to find the Minimum swaps required to bring all elements less than or equal to k together.
+
+        Given an array of n positive integers and a number k. 
+        Find the minimum number of swaps required to bring all the numbers less than or equal to k together.
+
+        Example 1:
+        Input:  arr[] = {2, 1, 5, 6, 3}, k = 3
+        Output: 1
+
+        Explanation: 
+        To bring elements 2, 1, 3 together, swap element '5' with '3' such that final array will be - arr[] = {2, 1, 3, 6, 5}
+
+        Example 2:
+        Input:  arr[] = {2, 7, 9, 5, 8, 7, 4}, k = 5
+        Output: 2
+
+        Approach :
+
+        A simple approach is to use two pointer technique and sliding window.
+
+        1. Find count of all elements which are less than or equals to 'k'. Let’s say the count is 'count'.
+        2. Using two pointer technique for window of length 'count', each time keep track of how many elements in this range are greater than ‘k’. 
+        Let’s say the total count is 'ans'.
+        3. Repeat step 2, for every window of length 'count' and take minimum of 'ans' among them. This will be the final answer.
