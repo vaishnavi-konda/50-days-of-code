@@ -571,3 +571,21 @@ Example 2:
         2. Using two pointer technique for window of length 'count', each time keep track of how many elements in this range are greater than ‘k’. 
         Let’s say the total count is 'ans'.
         3. Repeat step 2, for every window of length 'count' and take minimum of 'ans' among them. This will be the final answer.
+
+### [Day-27](https://github.com/vaishnavi-konda/100-days-of-code/tree/main/Day-27)
+### Elements in an array that appear more than n/k times
+
+        C++ program to find all elements in an array that appear more than n/k times.
+
+        Given an array of size n, and an integer k, find all elements in array that appear more than n/k times. 
+
+        Example:
+                Input : array = {3, 1, 2, 2, 1, 2, 3, 3} and k = 4
+                Output : 2, 3
+                Explanation : The size of array is 8 (or n = 8), so we need to find all elements that appear more than 2 (or 8/4) times. 
+                There are two elements that appear more than two times, 2 and 3. 
+
+        Approach :
+        1. Sort the array.
+        2. Iterate through array. 
+        3. Keep track of count of each element and print the element if it occurs more than n/k times.
