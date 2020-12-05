@@ -606,3 +606,32 @@
         1. Sort the given array.
         2. Iterate through the array, for every element array[i], check if there exists a pair of sum (x - array[i]).
         3. If there exits such pair for an element, then print the element along with the pair found.
+
+### [Day-29](https://github.com/vaishnavi-konda/100-days-of-code/tree/main/Arrays/Day-29)
+### Maximum product subarray
+
+        C++ program to find the product of the subarray with maximum product.  
+
+        Given an array Arr that contains N integers (may be positive, negative or zero). Find the product of the maximum product subarray.
+
+        Example 1:
+                Input : N = 5, arr[] = { 6, -3, -10, 0, 2 }
+                Output: 180
+                Explanation: Subarray with maximum product is  6, -3, -10 which gives product as 180.
+
+        Example 2:
+                Input : N = 6, arr[] = { 2, 3, 4, 5, -1, 0 }
+                Output: 120
+                Explanation: Subarray with maximum product is 2, 3, 4, 5 which gives product as 120.
+
+        Example 3:
+                Input: N = 5, arr[] = { -2, -3, 0, -2, -40 }
+                Output: 80 
+                Explanation : Subarray with maximum product is -2, -40 which gives product as 80.
+
+        Algorithm :
+        1. Traverse array from left to right keeping two variables minVal and maxVal which represents the minimum and maximum product value till the ith index of the array.
+        2. If the ith element of the array is negative that means now the values of minVal and maxVal will be swapped. 
+        As the value of maxVal will become minimum by multiplying it with a negative number.
+        3. Create a variable maxProduct which stores the maximum of maxVal.
+        4. Update maxProduct for every iteration.
