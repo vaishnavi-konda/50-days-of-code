@@ -1,6 +1,12 @@
 # 100-days-of-code
+
 100-days-of-code is a challenge where I set myself the goal to code atleast for an hour everyday for the next 100 days.
-Iam learning Data Structures through C++ and Algorithms in the next 100 days
+
+Iam learning Data Structures through C++ and Algorithms in the next 100 days.
+
+The questions that I practice are [here](https://docs.google.com/spreadsheets/d/1LWxA3xiZxUGToD7Nj3fVqSyOs9f5bx_zqsMjaQLcen8/edit#gid=2033272034).
+
+At the same time, I follow [Apna College Youtube channel](https://www.youtube.com/watch?v=z9bZufPHFLU&list=PLfqMhTWNBTe0b2nM6JHVCnAkhQRGiZMSJ) to learn more about Data structures.
 
 Contents :
 
