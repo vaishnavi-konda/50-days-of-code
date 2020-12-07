@@ -11,7 +11,7 @@ At the same time, I follow [Apna College Youtube channel](https://www.youtube.co
 Contents :
 
 1. [Arrays](https://github.com/vaishnavi-konda/100-days-of-code/tree/main/arrays_content.md)
-2. [Matrix](#)
+2. [Matrix](https://github.com/vaishnavi-konda/100-days-of-code/tree/main/matrix_content.md)
 3. [Strings](#)
 4. [Searching and Sorting](#)
 5. [Linked Lists](#)
