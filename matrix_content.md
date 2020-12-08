@@ -94,7 +94,7 @@ Example 1:
     Output: 
     1 2 3 4 8 12 16 15 14 13 9 5 6 7 11 10
 
-![Explanation](https://github.com/vaishnavi-konda/100-days-of-code/tree/main/Matrix/spirallyTraverseImage.PNG)
+![spirallyTraverseImage](https://user-images.githubusercontent.com/74097479/101493841-94d31c00-398c-11eb-9340-548cc0daed7e.PNG)
 
 Example 2:
 
