@@ -1,5 +1,5 @@
 /*
-C++ program to print the elements of a matrix in sorted rder.
+C++ program to print the elements of a matrix in sorted order.
 
 Given an rows x columns  matrix, where every row and column is sorted in non-decreasing order. 
 Print all elements of matrix in sorted order.

@@ -174,7 +174,7 @@ Both the methods take O(rows*columns) time in worst case.
 ### [Day-34](https://github.com/vaishnavi-konda/100-days-of-code/tree/main/Matrix/Day-34) 
 ### Print the matrix elements in Sorted Order
 
-C++ program to print the elements of a matrix in sorted rder.
+C++ program to print the elements of a matrix in sorted order.
 
 Given an rows x columns  matrix, where every row and column is sorted in non-decreasing order. 
 Print all elements of matrix in sorted order.
