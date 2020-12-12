@@ -205,7 +205,7 @@ Complexity Analysis :
 1. Time Complexity : O(R * C log (R*C))).
 2. Space Complexity : O(R * C), since the output array is of size R*C.
 
-### [Day-34](https://github.com/vaishnavi-konda/100-days-of-code/tree/main/Matrix/Day-34) 
+### [Day-35](https://github.com/vaishnavi-konda/100-days-of-code/tree/main/Matrix/Day-35) 
 ### Median of Matrix
 
 C++ program to find the median of a matrix.
@@ -239,3 +239,39 @@ Algorithm :
 3. Sort the 'mergedMatrix' vector.
 4. If the vector has odd number of elements, then median is the middle element.
    If the vector has even number of elements, then median is the average of middle 2 elements.
+
+### [Day-36](https://github.com/vaishnavi-konda/100-days-of-code/tree/main/Matrix/Day-36) 
+### Kth Smallest Element in a Matrix
+
+C++ program to print the kth smallest element in the given matrix.
+
+Given an R * C  matrix, and a positive integer k. 
+Print the kth smallest element in the given matrix.
+
+Example 1 :
+    Input : R = 4, C = 4, k = 4
+            matrix = {{10, 20, 30, 40},
+                    {15, 25, 35, 45},
+                    {27, 29, 37, 48},
+                    {32, 33, 39 50}}
+    Output : 27
+    Explanation: 27 is the 3rd smallest element.
+
+Example 2 :
+    Input : R = 3, C = 3, k = 3
+            matrix = {{1, 3, 4},
+                    {2, 6, 7},
+                    {5, 8, 9}}
+    Output : 3
+
+Algorithm :
+
+1. Create a output array of size R * C.
+2. Traverse the matrix from start to end and insert all the elements in output array.
+3. Sort the output array.
+4. Print the (k - 1)th element in the sorted output matrix. (0 based indexing)
+
+Complexity Analysis :
+
+1. Time Complexity : O(R * C log (R*C))).
+2. Space Complexity : O(R * C), since the output array is of size R*C.
