@@ -356,3 +356,25 @@ Run two loops, the outer loop from 0 to row count and inner loop from 0 to index
 Take two variables in the outer loop, startCol = 0, endCol = columns - 1. Run the outer loop until the startCol and endCol become equal.
 Run inner loop for all rows starting from 0 to row count - 1.
 Swap element in each row for the first and last columns.
+
+### [Day-39](https://github.com/vaishnavi-konda/100-days-of-code/tree/main/Matrix/Day-39) 
+### Find a specific pair in Matrix
+
+Given an n x n matrix mat[n][n] of integers, find the maximum value of mat(c, d) – mat(a, b) over all choices of indexes such that both c > a and d > b.
+
+```
+Example:
+    Input:
+            mat[N][N] = {{ 1, 2, -1, -4, -20 },
+                        { -8, -3, 4, 2, 1 }, 
+                        { 3, 8, 6, 1, 3 },
+                        { -4, -1, 1, 7, -6 },
+                        { 0, -4, 10, -5, 1 }};
+    Output: 18
+    Explanation: The maximum value is 18 as mat[4][2] - mat[1][0] = 18 has maximum difference.
+```
+Algorithm : 
+
+1. Find max value of matrix and store in maxVal variable and keep track of its location with maxRow and maxCol variables
+2. Then find min value in matrix[maxRow][maxCol] and store in minVal variable
+3. return maxVal - minVal
