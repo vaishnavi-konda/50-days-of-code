@@ -378,3 +378,35 @@ Algorithm :
 1. Find max value of matrix and store in maxVal variable and keep track of its location with maxRow and maxCol variables
 2. Then find min value in matrix[maxRow][maxCol] and store in minVal variable
 3. return maxVal - minVal
+
+### [Day-40](https://github.com/vaishnavi-konda/100-days-of-code/tree/main/Matrix/Day-40) 
+### Max rectangle
+
+Given a binary matrix. Find the maximum area of a rectangle formed only of 1s in the given matrix.
+
+```
+Example 1:
+        Input: n = 4, m = 4
+                M[][] = {{0 1 1 0},
+                        {1 1 1 1},
+                        {1 1 1 1},
+                        {1 1 0 0}}
+        Output: 8
+        Explanation: For the above test case the matrix will look like
+                    0 1 1 0
+                    1 1 1 1
+                    1 1 1 1
+                    1 1 0 0
+                    the max size rectangle is 
+                    1 1 1 1
+                    1 1 1 1
+                    and area is 4 *2 = 8.
+```
+Algorithm : 
+
+1. Run a loop to traverse through the rows.
+2. Now If the current row is not the first row then update the row as next point...
+3. If matrix[i][j] is not zero then matrix[i][j] = matrix[i-1][j] + matrix[i][j].
+4. Find the maximum rectangular area under the histogram, consider the ith row as heights of bars of a histogram.
+5. This can be calculated as given in this article Largest Rectangular Area in a Histogram
+4. Do the previous two steps for all rows and print the maximum area of all the rows.
