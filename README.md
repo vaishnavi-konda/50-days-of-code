@@ -12,7 +12,7 @@ Contents :
 
 1. [Arrays](https://github.com/vaishnavi-konda/100-days-of-code/tree/main/arrays_content.md)
 2. [Matrix](https://github.com/vaishnavi-konda/100-days-of-code/tree/main/matrix_content.md)
-3. [Strings](#)
+3. [Strings](https://github.com/vaishnavi-konda/100-days-of-code/tree/main/strings_content.md)
 4. [Searching and Sorting](#)
 5. [Linked Lists](#)
 6. [Binary Trees](#)
