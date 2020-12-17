@@ -1,7 +1,7 @@
 # [***MATRIX or 2 DIMENSIONAL ARRAYS***](https://github.com/vaishnavi-konda/100-days-of-code/tree/main/Matrix)
 
-### [Day-31](https://github.com/vaishnavi-konda/100-days-of-code/tree/main/Matrix/Day-31) 
-### Search for an element in a Matrix
+## [Day-31](https://github.com/vaishnavi-konda/100-days-of-code/tree/main/Matrix/Day-31) 
+## Search for an element in a Matrix
 
 C++ program to search for an element in a 2D Matrix.
 
@@ -79,8 +79,8 @@ Algorithm :
 
 The code here is written for Method 3.
 
-### [Day-32](https://github.com/vaishnavi-konda/100-days-of-code/tree/main/Matrix/Day-32) 
-### Spirally Traversing a Matrix
+## [Day-32](https://github.com/vaishnavi-konda/100-days-of-code/tree/main/Matrix/Day-32) 
+## Spirally Traversing a Matrix
 
 C++ program to traverse the matrix in spiral form.
 
@@ -137,8 +137,8 @@ Algorithm :
     And check if columStart > columnEnd after every updation of columnEnd.
     If any of the condition occurs then stop traversal, because the condition arises when all the elements are traversed in the matrix.
 
-### [Day-33](https://github.com/vaishnavi-konda/100-days-of-code/tree/main/Matrix/Day-33) 
-### Row with Maximum number of 1s in a Boolean Matrix.
+## [Day-33](https://github.com/vaishnavi-konda/100-days-of-code/tree/main/Matrix/Day-33) 
+## Row with Maximum number of 1s in a Boolean Matrix.
 
 C++ program to find the row with maximum number of 1s.
 
@@ -171,8 +171,8 @@ By counting the number of 1s in each row, and maximum of all the counts is retur
 
 Both the methods take O(rows*columns) time in worst case.
 
-### [Day-34](https://github.com/vaishnavi-konda/100-days-of-code/tree/main/Matrix/Day-34) 
-### Print the matrix elements in Sorted Order
+## [Day-34](https://github.com/vaishnavi-konda/100-days-of-code/tree/main/Matrix/Day-34) 
+## Print the matrix elements in Sorted Order
 
 C++ program to print the elements of a matrix in sorted order.
 
@@ -205,8 +205,8 @@ Complexity Analysis :
 1. Time Complexity : O(R * C log (R*C))).
 2. Space Complexity : O(R * C), since the output array is of size R*C.
 
-### [Day-35](https://github.com/vaishnavi-konda/100-days-of-code/tree/main/Matrix/Day-35) 
-### Median of Matrix
+## [Day-35](https://github.com/vaishnavi-konda/100-days-of-code/tree/main/Matrix/Day-35) 
+## Median of Matrix
 
 C++ program to find the median of a matrix.
 
@@ -240,8 +240,8 @@ Algorithm :
 4. If the vector has odd number of elements, then median is the middle element.
    If the vector has even number of elements, then median is the average of middle 2 elements.
 
-### [Day-36](https://github.com/vaishnavi-konda/100-days-of-code/tree/main/Matrix/Day-36) 
-### Kth Smallest Element in a Matrix
+## [Day-36](https://github.com/vaishnavi-konda/100-days-of-code/tree/main/Matrix/Day-36) 
+## Kth Smallest Element in a Matrix
 
 C++ program to print the kth smallest element in the given matrix.
 
@@ -276,8 +276,8 @@ Complexity Analysis :
 1. Time Complexity : O(R * C log (R*C))).
 2. Space Complexity : O(R * C), since the output array is of size R*C.
 
-### [Day-37](https://github.com/vaishnavi-konda/100-days-of-code/tree/main/Matrix/Day-37) 
-### Common Elements in all the rows of a Matrix
+## [Day-37](https://github.com/vaishnavi-konda/100-days-of-code/tree/main/Matrix/Day-37) 
+## Common Elements in all the rows of a Matrix
 
 C++ program to find the common elements in all the rows of a matrix.
 
@@ -305,8 +305,8 @@ Complexity Analysis :
 1. The time complexity of this solution is O(R * C) as we are doing only one traversal of the matrix.
 2. Space complexity is O(C) as a map is used to store one row elements.
 
-### [Day-38](https://github.com/vaishnavi-konda/100-days-of-code/tree/main/Matrix/Day-38) 
-### Rotate a square matrix by 90 degrees in clockwise direction 
+## [Day-38](https://github.com/vaishnavi-konda/100-days-of-code/tree/main/Matrix/Day-38) 
+## Rotate a square matrix by 90 degrees in clockwise direction 
 
 C++ program to rotate a square matrix by 90 degrees in clockwise direction.
 
@@ -357,8 +357,8 @@ Take two variables in the outer loop, startCol = 0, endCol = columns - 1. Run th
 Run inner loop for all rows starting from 0 to row count - 1.
 Swap element in each row for the first and last columns.
 
-### [Day-39](https://github.com/vaishnavi-konda/100-days-of-code/tree/main/Matrix/Day-39) 
-### Find a specific pair in Matrix
+## [Day-39](https://github.com/vaishnavi-konda/100-days-of-code/tree/main/Matrix/Day-39) 
+## Find a specific pair in Matrix
 
 Given an n x n matrix mat[n][n] of integers, find the maximum value of mat(c, d) – mat(a, b) over all choices of indexes such that both c > a and d > b.
 
@@ -379,8 +379,8 @@ Algorithm :
 2. Then find min value in matrix[maxRow][maxCol] and store in minVal variable
 3. return maxVal - minVal
 
-### [Day-40](https://github.com/vaishnavi-konda/100-days-of-code/tree/main/Matrix/Day-40) 
-### Max rectangle
+## [Day-40](https://github.com/vaishnavi-konda/100-days-of-code/tree/main/Matrix/Day-40) 
+## Max rectangle
 
 Given a binary matrix. Find the maximum area of a rectangle formed only of 1s in the given matrix.
 
