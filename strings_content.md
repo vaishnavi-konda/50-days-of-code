@@ -52,3 +52,27 @@ Algorithm - 1:
 Algorithm - 2:
 1. First, find the reverse of the given string using two pointer technique.
 2. Check if the original string and reversed string are same or not.
+
+## [Day-43](https://github.com/vaishnavi-konda/100-days-of-code/tree/main/Strings/Day-43) 
+## Rotations of Strings
+
+C++ program to check if two given strings are rotations of  each other.
+
+Given a string str1 and a string str2.
+Print 1 if the str2 is the rotation of str1, print 0 if it is not the rotation.
+
+Algorithm : 
+Create a temp string and store concatenation of str1 to str2 in temp.
+If str2 is a substring of temp then str1 and str2 are rotations of each other.
+
+Example:                 
+    Input : str1 = "ABACD", str2 = "CDABA"
+    Output : 1
+    Explanation : 
+    temp = str1 + str2 = "ABACDABACD"
+    Since str2 is a substring of temp, str1 and str2 are rotations of each other.
+
+Algorithm :
+1. Create a temp string which stores the concatenation of given 2 strings.
+2. Check if the str2 is subset of temp string or not.
+3. If str2 is subset of temp, then str2 is the rotation of str1.
