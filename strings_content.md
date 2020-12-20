@@ -76,3 +76,25 @@ Algorithm :
 1. Create a temp string which stores the concatenation of given 2 strings.
 2. Check if the str2 is subset of temp string or not.
 3. If str2 is subset of temp, then str2 is the rotation of str1.
+
+## [Day-44](https://github.com/vaishnavi-konda/100-days-of-code/tree/main/Strings/Day-44) 
+## Duplicate characters in a String
+
+C++ program to print all the duplicates and their counts in the input string .
+
+Example 1:
+
+    Input : str = "example"
+    Output : e, count = 2
+
+Example 2:
+
+    Input : str = "helloworld"
+    Output: l, count = 3
+            o, count = 2
+
+Algorithm :
+1. Create a map freq< char, int > to store the frequency of each character in the given string.
+2. Traverse through the string, start from index i = 0.
+3. For each character, update freq[ str[ i ]]++.
+4. Next, traverse through the map, and if the value of any character is more than 1, print the corresponding key(character).
