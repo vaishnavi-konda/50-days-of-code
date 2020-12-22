@@ -127,3 +127,22 @@ Example 2:
     countAndSay(2) = say "1" = one 1 = "11"
     countAndSay(3) = say "11" = two 1's = "21"
     countAndSay(4) = say "21" = one 2 + one 1 = "12" + "11" = "1211" 
+
+## [Day-46](https://github.com/vaishnavi-konda/100-days-of-code/tree/main/Strings/Day-46)
+## Valid Shuffle of strings
+
+C++ Program to Check if a string is a valid shuffle of two distinct strings.
+
+Example 1:
+
+    Input : string1 = "XY", string2 = "12",
+            result = "1X2Y" or result = "X12Y" or result = "12XY" or result = "XY12"
+    Output : 1 
+
+Example 2:
+
+    Input : string1 = "XY",string2 = "12"
+            result = "Y12X"
+    Output : 0
+    This is because Y12X has altered the order of string XY. Here, Y is used before X. 
+    Hence, to be a valid shuffle, the order of string should be maintained.
