@@ -172,3 +172,23 @@ Algorithm :
 2. Iterate from the end of string in order to generate different substrings, add the subtring to the list.
 3. Drop kth character from the substring obtained from above to generate different subsequence.
 4. if the subsequence is not in the list then recur.
+
+## [Day-48](https://github.com/vaishnavi-konda/100-days-of-code/tree/main/Strings/Day-48)
+## Longest Palindromic Substring
+
+C++ program to find longest palindrome substring in a string.
+
+Given a string S, find the longest palindromic substring in S. 
+Substring of string S: S[ i . . . . j ] where 0 ≤ i ≤ j < len(S). 
+
+Palindrome string: A string which reads the same backwards. 
+More formally, S is palindrome if reverse(S) = S. 
+
+Incase any palindromic substring does not exist, return the substring which occurs first ( with the least starting index ).
+
+NOTE: Required Time Complexity O(n2).
+
+Example:
+    Input : aaaabbaa
+    Output : aabbaa
+    Explanation : The longest palindrome string present in the given string is "aabbaa".
