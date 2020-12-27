@@ -215,3 +215,30 @@ Approach:
 2. If the count of 0s and 1s in the original string is not equal then print -1 else print the value of count after the traversal of the complete string.
 
 Time complexity : O(N) where N is the length of string
+
+## [Day-50](https://github.com/vaishnavi-konda/100-days-of-code/tree/main/Strings/Day-50)
+## Convert String into equivalent mobile numeric keypad sequence
+
+C++ program to convert a sentence into its equivalent mobile numeric keypad sequence.
+
+Given a sentence in the form of a string, convert it into its equivalent mobile numeric keypad sequence.
+
+![mobileKeypad](https://user-images.githubusercontent.com/74097479/103173289-f39aff80-487f-11eb-8f34-8f263215767b.png)
+
+For obtaining a number, we need to press a number corresponding to that character for number of times equal to position of the character. 
+For example, for character C, we press number 2 three times and accordingly.
+
+Example 1:
+    Input : GEEKSFORGEEKS
+    Output : 4333355777733366677743333557777
+
+Example 2:
+    Input : HELLO WORLD
+    Output : 4433555555666096667775553
+
+Algorithm :
+1. For each character, store the sequence which should be obtained at its respective position in an array, i.e. for Z, store 9999. For Y, store 999. For K, store 55 and so on.
+2. For each character, subtract ASCII value of ‘A’ and obtain the position in the array pointed
+by that character and add the sequence stored in that array to a string.
+3. If the character is a space, store 0
+4. Print the overall sequence.
